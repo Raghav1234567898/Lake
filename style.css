@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(lake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+#main img{
+    height: 100%;
+    width: 100%;
+}
+#main h1{
+    position: absolute;
+    font-family: "roboto";
+    color: aqua;
+    font-weight: 100;
+    font-size: 100px;
+    transform: rotate(-90deg);
+    transform-origin: 0 50%;
+    left: 5%;
+    bottom: -8%;
+}
+#text{
+    height: 85%;
+    width: 40%;
+    position: absolute;
+    bottom: -0%;
+    left: 9%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-attachment: fixed;
+    background-color: rgba(255, 254, 254, 0.219);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.836);
+}
+#y h6{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: "southam demo";
+}
+#x h2{
+    font-size: 80px;
+    font-weight: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 13%;
+    left: 13%;
+    font-family: "raleway";
+    color: aqua;
+}
+#x p{
+    font-size: 30px;
+    font-weight: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 50%;
+    left: 14%;
+    font-family: "raleway";
+    right: 10%;
+    color: aqua;
+}
+#x button{
+    position: absolute;
+    bottom: 10%;
+    left: 14%;
+    height: 40px;
+    width: 30%;
+    background-color: aqua;
+    font-weight: 100%;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+}
+#nav{
+    height: 50%;
+    width: 120px;
+    background-color: aqua;
+    right: 0%;
+    position: absolute;
+}
+#t{
+    height: 33%;
+    width: 120px;
+    background-color: aqua;
+    position: relative;
+}
+#t i{
+    position: absolute;
+    display: flex;
+    top: 30%;
+    left: 42px;
+    font-size: 30px;
+}
+#u{
+    height: 34%;
+    width: 120px;
+    background-color: rgb(32, 23, 23);
+    position: relative;
+    color: rgb(109, 108, 108);
+}
+#u i{
+    font-size: 30px;
+    top: 30%;
+    left: 42px;
+    position: absolute;
+
+}
+#b{
+    height: 33%;
+    width: 120px;
+    position: relative;
+}
+#b i{
+    position: absolute;
+    font-size: 33px;
+    top: 30%;
+    left: 42px;
+
+}
+#main2{
+    height: 50%;
+    width: 120px;
+    background-color: rgb(20, 19, 19);
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    color: rgb(117, 115, 115);
+
+}
+
+#icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    height: 50%;
+    font-size: 40px;
+    transform: rotate(90deg);
+    transform-origin: 0 50%;
+    position: absolute;
+    top: -10%;
+}
+#icon i{
+    transform-origin:0 -50%;
+    transform:rotate(-90deg)
+    
+}
+#main3{
+    height: 100px;
+    width: 575px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 120px;
+    bottom: 0%; 
+    background-color: rgb(20, 19, 19);
+}
+#main3 h5{
+    position: absolute;
+    font-size: 20px;
+    left: 3%;
+    top: 20px;
+    color: rgb(117, 115, 115);
+}
+#main3 h6{
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    left: 45%;
+    color: rgb(117, 115, 115);
+}
+#main h4{
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    right: 3%;
+    color: rgb(117, 115, 115);
+}
